@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="alert"  type="id"/>
+    <item name="rg"  type="id"/>
+    <item name="spo"  type="id"/>
+    <item name="spt" type="id"/>
+    <item name="sf"  type="id"/>
+    <item name="toolbare" type="id" />
+    <item name="appbar"  type="id"/>
+    <item name="cool"  type="id"/>
+</resources>

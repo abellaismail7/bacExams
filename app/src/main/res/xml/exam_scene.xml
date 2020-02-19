@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/popup_end"
+        motion:constraintSetStart="@+id/popup_start"
+        motion:duration="400"
+        >
+        <OnClick
+            motion:targetId="@id/show_popup" />
+    </Transition>
+
+
+    <ConstraintSet android:id="@+id/popup_end">
+        <Constraint android:id="@+id/frame"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            motion:cardElevation="5dp"
+            motion:cardUseCompatPadding="true"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"/>
+
+        <Constraint
+            android:id="@+id/show_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:translationY="33dp"
+            android:layout_margin="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            motion:layout_constraintBottom_toTopOf="@id/frame"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:srcCompat="@drawable/ic_menu" />
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/popup_start">
+
+        <Constraint android:id="@+id/frame"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_margin="10dp"
+            motion:cardElevation="5dp"
+            motion:cardUseCompatPadding="true"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"/>
+
+        <Constraint
+            android:id="@+id/show_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:translationY="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:srcCompat="@drawable/ic_menu" />
+
+    </ConstraintSet>
+
+
+
+
+</MotionScene>

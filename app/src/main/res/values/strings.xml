@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="app_name">امتحانات الباكلوريا</string>
+    <string name="not_found">للاسف ، هذا الامتحان غير متوفر حاليا \n و سنعالج هذا الامر في اقرب وقت</string>
+    <string name="load">تحميل</string>
+    <string name="next">التالي</string>
+    <string name="choose">قم باختيار الشعبة</string>
+    <string name="mock_arabic">مادة اللغة العربية</string>
+    <string name="mock_2010_2017">شعبة العلوم الرياضية من سنة 2010 الى 2017</string>
+    <string name="material_description">شعبة العلوم الرياضية من سنة %d الى %d</string>
+
+    <string name="welcome_one">سعداء لرؤيتك هنا</string>
+    <string name="welcome_desc_one">نتمنى ان يعحبك التطبيق و تستفيد باكبر طريقة ممكنة</string>
+
+    <string name="welcome_two">شارك شغفك مع الاخرين</string>
+    <string name="welcome_desc_two">تواصل مع اشخاص يشاركونك نفس السنة الدراسية من جميع انجاء المملكة</string>
+
+    <string name="welcome_three">قم باختيار الشعبة</string>
+    <string name="welcome_desc_three">مختلف الشعب العلمية و الادبية من 2011 الى 2019</string>
+
+    <string name="previous">السابق</string>
+    <string name="change_year">تغيير سنة الامتحان</string>
+    <string name="all_right">تمام</string>
+    <string name="mock_orient">شعبة العلوم الفيزيائية</string>
+    <string name="soon">قريبا</string>
+    <string name="homework">التمارين</string>
+    <string name="comming_soon">قادم في الاصدار القادم</string>
+    <string name="change_orient">تغيير الشعبة</string>
+    <string name="try_again">حاول مجددا</string>
+    <string name="no_internet">ربما لا تتوفر حاليا على الانترنيت  </string>
+    <string name="titlebar">شعبة %s</string>
+    <string name="exam_title">مادة %s سنة %d</string>
+    <string name="rat">الاستدراكية</string>
+
+
+</resources>
